@@ -1,38 +1,86 @@
 .App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.textBox{
+  text-decoration: none;
+  border: none;
+  padding: 1rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button{
+  cursor: pointer;
+}
+.grey{
+  background-color: rgb(224, 224, 224);
+  width: 50px;
+  height: 50px;
+  margin-right: 3rem;
+}
+.add{
+  width: 100%;
+  height: 3rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  border: none;
+  background-color: #337ab7;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.add img{
+  height: 100%;
+  margin-right: .5rem;
+}
+.add h3{
   color: white;
+  font-weight: normal;
+}
+.actionIcons{
+  display: flex;
+  margin-right: 6rem;
+  margin-left: 2rem;
+}
+.actionIcons button{
+  border: none;
+  background-color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.icon{
+  width: 20px;
+  height: 20px;
+}
+.DragIconWrapper{
+  /*display: inline-block;*/
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+.ListContainer{
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  padding: 5rem 10rem ;
+  
+}
+.ListContainer h2{
+  color: #a7a7a7;
+}
+.ListItem{
+  display: flex;
+  align-items: center;
+  color: #444444;
+
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  background: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.titleBox{
+  display: flex;
+  border-top: 1px solid #dddddd;
+}
+.titleBox span{
+  color: #a7a7a7;
+}
+
+.right{
+  margin-left: 6rem;
 }
